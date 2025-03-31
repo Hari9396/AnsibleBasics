@@ -1,6 +1,6 @@
 
 - name: install packages
-  hosts: web
+  hosts: db
   become: yes
   tasks:
   - name: install packages
